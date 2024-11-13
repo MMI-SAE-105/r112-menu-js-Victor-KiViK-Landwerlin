@@ -1,6 +1,6 @@
 const toggle = document.querySelector('.menu-btn');
 const nav = document.querySelector('.menu');
-const noscroll = document.querySelector('body');
+const patate = document.body;
 
 toggle.addEventListener('click', () => {
     const isOpen = toggle.ariaExpanded === "true";
@@ -8,5 +8,5 @@ toggle.addEventListener('click', () => {
     console.log("isOpen : ", isOpen, "isClosed : ", isClosed);
     nav.ariaHidden = isOpen;
     toggle.ariaExpanded = isClosed;
-    noscroll.classList.toggle('noscroll');
+    patate.classList.toggle('noscroll');
 });
