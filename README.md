@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom :Landwerlin
+- prénom :Victor
+- URL Netlify :https://tp2menujs.netlify.app/
 
 # Travail
 
