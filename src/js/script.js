@@ -8,5 +8,5 @@ toggle.addEventListener('click', () => {
     console.log("isOpen : ", isOpen, "isClosed : ", isClosed);
     nav.ariaHidden = isOpen;
     toggle.ariaExpanded = isClosed;
-    patate.classList.toggle('noscroll');
+    patate.classList.toggle('noscroll', isClosed);
 });
